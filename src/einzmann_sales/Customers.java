@@ -10,4 +10,9 @@ public class Customers
 	{
 		customers = new ArrayList<>();
 	}
+	
+	public void addCustomers(Customer customer)
+	{
+		customers.add(customer);
+}
 }
